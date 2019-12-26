@@ -1,0 +1,32 @@
+.appBody{
+  margin-top: 60px;
+}
+
+
+.box {
+float:left;
+width: 440px;
+height: 440px;
+background: #FFFFFF;
+border: 2px solid #E5E5E5;
+padding: 20px;
+box-sizing: border-box;
+border-radius: 20px;
+margin-bottom: 30px;
+margin-right: 30px;
+padding-top: 30px ;
+margin-top:30px;
+margin-left:auto;
+text-align: center;
+}
+
+h6 {
+  font-weight: bold;
+  display: inline;
+}
+.added {
+  color: green;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+}

@@ -1,0 +1,70 @@
+.logo {
+  height: 26px;
+}
+
+.headerContainer {
+  background-color: white;
+  display: flex;
+  width: 100vw;
+  height: 60px;
+  padding: 17px 10px 17px 10px;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+}
+
+.headerContainer a {
+  margin: 0 10px 0 10px;
+  font-size: 17px;
+  color: #BBAEAE;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.headerContainer a:hover {
+  color: #2B2A32;
+
+}
+
+.divRight {
+  display: flex;
+}
+
+.divLeft {
+  display: flex;
+}
+
+.cart {
+  height: 28px;
+}
+
+.icon {
+  height: 25px;
+}
+.menuIcon {
+  display: none;
+}
+
+.smNavOptions {
+  position: fixed;
+  top: 60px;
+  left: 0;
+  width: 100vw;
+  background-color: white;
+  display: none;
+}
+
+.smNavOptions a {
+  display: block;
+}
+
+@media only screen and (max-width: 570px) {
+  .navOptions {
+    display: none;
+  }
+  .menuIcon {
+    display: block;
+  }
+}

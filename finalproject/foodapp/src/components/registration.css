@@ -1,0 +1,26 @@
+
+.Registration{
+    top:100px;
+}
+h1{
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+
+    color: #FF4E02;
+
+    }
+
+
+    .btn{
+
+        background: #FFFFFF;
+        border: 3px solid #2B2A32;
+        box-sizing: border-box;
+        border-radius: 39px;
+    }
+.Registration {
+  padding-left: 20px;
+}

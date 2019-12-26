@@ -1,0 +1,175 @@
+* {
+  font-size: 16px;
+}
+
+.button{
+  all: unset;
+  margin-right: 20px;
+  border-radius: 40px;
+  width: 150px;
+  height: 35px;
+  line-height: 15px;
+  border: 4px solid black;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.button:hover{
+  background-color: #FF7135;
+  color: white;
+  border-color: #FF7135;
+}
+
+.appBody{
+  margin-top: 60px;
+}
+
+.section1 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.tittle {
+  padding-top: 150px;
+  padding-left: 20px;
+}
+
+.heading {
+  font-size: 56px;
+  font-weight: bold;
+}
+
+.highlight {
+  font-size: 56px;
+  font-weight: bold;
+  color: #FF4E02;
+}
+
+.subheading{
+  font-size: 18px;
+  font-style: italic;
+  color: #968B8B;
+}
+
+.section2.secFeature .secheading {
+  width: 200px;
+}
+
+.section2.secFeature {
+  background-color: #FAFAFA;
+}
+
+.section2.secFeature p{
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.section2.secFeature .imageContainer{
+  margin-top: 80px;
+}
+
+.cover {
+  height: 600px;
+  width: 50%;
+  transform: translateX(50px) rotate(-10deg);
+}
+
+.section2 {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.section2 p {
+  margin-bottom: 80px;
+  line-height: 2;
+}
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.company {
+  height: 80px;
+  width: 180px;
+  margin-right: 40px;
+}
+
+.company.companyLong {
+  width: 220px;
+}
+
+.imageDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature {
+  height: 100px;
+  width: 100px;
+}
+
+@media only screen and (max-width: 750px) {
+  .tittle{
+    padding-top: 20px;
+  }
+
+}
+
+@media only screen and (max-width: 650px) {
+  .imageContainer{
+    flex-direction: column;
+    align-items: center;
+  }
+  .company {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 60px;
+    width: 150px;
+  }
+  .feature {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 80px;
+    width: 80px;
+  }
+
+  .company.companyLong {
+    width: 180px;
+  }
+
+}
+
+@media only screen and (max-width: 500px) {
+  .cover {
+    display: none;
+  }
+
+  .tittle{
+    padding-top: 120px;
+  }
+
+  .heading {
+    font-size: 42px;
+  }
+
+  .highlight {
+    font-size: 42px;
+  }
+
+  .button {
+    font-size: 16px;
+  }
+
+}

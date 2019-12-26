@@ -1,0 +1,99 @@
+
+
+h1{
+font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 30px;
+line-height: 60px;
+
+color: #FF4E02;
+
+}
+.h11{
+
+    font-family: 'Muli', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+    
+    color: #2B2A32;
+}
+
+
+
+h4{
+
+font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: 200;
+font-size: 14px;
+line-height: 30px;
+
+color: #2B2A32;
+
+}
+
+.form-control {
+    width: 540px;
+
+    left: 170px;
+    background: #FFFFFF;
+    border: 1px solid #BBAEAE;
+    box-sizing: border-box;
+}
+
+
+
+
+.li{
+
+   
+font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: bold;
+
+line-height: 30px;
+
+color: rgba(255, 78, 2, 0.8);
+
+}
+
+.tex{
+
+
+font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: 30px;
+
+color: #000000;
+}
+
+
+.loginbtn{
+    font-family: 'Muli', sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: 30px;
+padding: 20px;
+}
+
+.btn{
+
+    background: #FFFFFF;
+    border: 3px solid #2B2A32;
+    box-sizing: border-box;
+    border-radius: 39px;
+}
+.btn:hover{
+    background-color: #FF7135;
+    color: white;
+    border-color: #FF7135;
+  }
+
+input {
+    overflow: inherit;
+}
+
